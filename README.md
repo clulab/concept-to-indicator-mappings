@@ -31,12 +31,13 @@ For example, conflict could be represented as:
     - Global_food_security_index
 ```
 
-Please use underscores in lieu of spaces.
+**Note**: Please use underscores in lieu of spaces.
 
 # Extensions
 
-It is possible that we may need to extend this format to be useful for modelers, perhaps with links to data sources, etc.
-We enthusiastically welcome suggestions from you all!
+It is possible that we may need to extend this format to be useful for modelers,
+perhaps with links to data sources, etc.  We enthusiastically welcome
+suggestions!
 
 # Contributing
 
@@ -44,5 +45,5 @@ You can contribute in two ways:
 
 - You can fork this project, make changes in your local copy, and submit a pull
     request.
-- You can email Mihai at `msurdeanu DOT info / msurdeanu AT email DOT arizona
+- You can email Mihai at `msurdeanu AT email DOT arizona
   DOT edu` to request to be added to the repository as a contributor.
