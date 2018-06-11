@@ -17,18 +17,18 @@ The format of the mappings file is as shown below:
 
 ```yaml
 - concept:
-	- indicators:
-		- indicator_1
-		- indicator_2
-		- indicator_3
+  - indicators:
+    - indicator_1
+    - indicator_2
+    - indicator_3
 ```
 
 For example, conflict could be represented as:
 
 ```yaml
 - food_security:
-	- indicators:
-		- Global_food_security_index
+  - indicators:
+    - Global_food_security_index
 ```
 
 Please use underscores in lieu of spaces.
