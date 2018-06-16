@@ -16,12 +16,12 @@ curate this set of mappings.
 The format of the mappings file is as shown below:
 
 ```yaml
-  - concept name:
-    - indicators:
-      - indicator 1:
+  concept name:
+    indicators:
+      indicator 1:
         source: Organization Name
         url: URL to the location of data corresponding to the indicator.
-      - indicator_2
+      indicator_2:
         source: Organization Name
         url: URL to the location of data corresponding to the indicator.
 ```
@@ -29,14 +29,14 @@ The format of the mappings file is as shown below:
 For example, conflict could be represented as:
 
 ```yaml
-  - food security:
-    - indicators:
-      - average dietary energy supply adequacy:
+  food security:
+    indicators:
+      average dietary energy supply adequacy:
         source: FAO
-        url: http://www.fao.org/economic/ess/ess-fs/ess-fadata/en/#.Wx7h1y2ZP3Y 
-      - average value of food production:
+        url: http://www.fao.org/fileadmin/templates/ess/foodsecurity/Food_Security_Indicators_25-10-2017.xlsx
+      average value of food production:
         source: FAO
-        url: http://www.fao.org/economic/ess/ess-fs/ess-fadata/en/#.Wx7h1y2ZP3Y
+        url: http://www.fao.org/fileadmin/templates/ess/foodsecurity/Food_Security_Indicators_25-10-2017.xlsx
 ```
 
 **Note**: Please use underscores in lieu of spaces.
