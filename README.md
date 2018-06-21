@@ -26,10 +26,10 @@ The format of the mappings file is as shown below:
         url: URL to the location of data corresponding to the indicator.
 ```
 
-For example, conflict could be represented as:
+For example, food insecurity could be represented as:
 
 ```yaml
-  food security:
+  food insecurity:
     indicators:
       average dietary energy supply adequacy:
         source: FAO
